@@ -19,16 +19,13 @@ function rcu_disable_comment_url( $fields ) {
         return $fields;
     }
 }
-//We hook our function rcu_disable_comment_url with the filter comment_form_default_fields.
-add_filter('comment_form_default_fields','rcu_disable_comment_url');
+// Hook our function rcu_disable_comment_url with the filter comment_form_default_fields.
+add_filter( 'comment_form_default_fields', 'rcu_disable_comment_url' );
 
 // Filter to remove the existing links from the comments.
 add_filter( 'get_comment_author_url', function( $url, $comment_ID, $comment ) {
-  if ( ! is_admin()
-      && $comment->user_id !== get_post()->post_author
-      && ! user_can( $comment->user_id, 'manage_options' )
-  ) {
-      return '';
-  }
-  return $url;
+    if ( ! is_admin() && $comment->user_id !== get_post()->post_author && ! user_can( $comment->user_id, 'manage_options' ) ) {
+        return '';
+    }
+    return $url;
 }, 10, 3 );
