@@ -4,7 +4,7 @@ Plugin Name: Remove Comment URL
 Plugin URI: https://www.premtiwari.in/remove-comment-url/
 Description: Allows administrators to globally disable the URL/Website input field from the WordPress inbuilt comments form on their site.
 Author: Prem Tiwari
-Version: 1.2.0
+Version: 1.2.1
 Author URI: https://www.premtiwari.in/
 */
 
