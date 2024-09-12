@@ -10,15 +10,17 @@ Author URI: https://www.premtiwari.in/
 
 /**
  * Function to unset the website field from the comments form.
+ *
  * @param Array $fields
  * @return Array
  */
 function rcu_disable_comment_url( $fields ) {
 	if ( isset( $fields['url'] ) ) {
 		unset( $fields['url'] );
-		return $fields;
 	}
+	return $fields;
 }
+
 // Hook our function rcu_disable_comment_url with the filter comment_form_default_fields.
 add_filter( 'comment_form_default_fields', 'rcu_disable_comment_url' );
 
