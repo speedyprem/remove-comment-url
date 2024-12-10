@@ -3,7 +3,7 @@ Contributors: freewebmentor
 Donate link: https://www.premtiwari.in/
 Tags: comments form, url, website url filed, remove url, disable
 Requires at least: 5.0+
-Tested up to: 6.6
+Tested up to: 6.7
 Stable tag: trunk
 License: GPLv2
 
@@ -17,13 +17,17 @@ This is a lightweight and simple plugin which does not require any settings. The
 
 <strong>Benefits of Removing Website URL Field from the Comment Form</strong>
 
-- Reduced Spam
+- Remove WEBSITE Field from Comment Form
+- Remove hyper-link from comment AUTHOR
+- Disable turning URLs into hyper-links in comments
+- Remove HTML Link Tags in comments
+- Reduced Spam comments
 - Improved User Experience
-- Faster Commenting
-- Increased Interaction
-- Encouraging Quality Comments
-- Less Maintenance
-- It will remove the existing links as well
+- Faster Commenting Experience
+- Increase the user interactions
+- Encourage the quality comments
+- Need less maintenance
+- It will remove all the existing links from comments
 
 == 🎉 Remove the existing links from comments ==
 
