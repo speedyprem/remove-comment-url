@@ -3,7 +3,7 @@ Contributors: freewebmentor
 Donate link: https://www.premtiwari.in/
 Tags: comments form, url, website url filed, remove url, disable
 Requires at least: 5.0+
-Tested up to: 6.7
+Tested up to: 6.8
 Stable tag: trunk
 License: GPLv2
 
